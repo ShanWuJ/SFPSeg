@@ -125,4 +125,9 @@ Then use:
 pip install -v -e . --no-build-isolation
 跟Q4的解决办法一样，即可解决
 
+Train:
+python train.py
+Test:
+python test_pred_out.py
+
 
