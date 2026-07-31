@@ -1,8 +1,8 @@
 环境搭建过程及遇到的问题：
 步骤：
-1-使用conda create -n vmamba python=3.10创建虚拟环境；
+1-使用conda create -n SFPSeg python=3.10创建虚拟环境；
 2-激活虚拟环境：
-conda activate vmamba
+conda activate SFPSeg
 3-安装pytorch:
  pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 -f https://download.pytorch.org/whl/torch_stable.html
 4-注释掉requirements.txt中的关于pytorch的安装
