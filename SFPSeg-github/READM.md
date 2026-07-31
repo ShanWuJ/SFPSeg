@@ -61,7 +61,7 @@ File "<string>", line 17, in <module>
       [end of output]
 
   note: This error originates from a subprocess, and is likely not a problem with pip.
-ERROR: Failed to build 'file:///data1/home/wushan/with_project/07-Scratch-Defect-Detection/Mine/ScratchSeg/models/selective_scan' when getting requirements to build wheel
+ERROR: Failed to build 'file:///../models/selective_scan' when getting requirements to build wheel
 
 RE4:实际上已经安装了pytorch，但是报以上错误
 解决办法：cd models/selective_scan
@@ -69,7 +69,7 @@ Then use:
 pip install -v -e . --no-build-isolation
 
 Q5:
-File "/data1/home/wushan/with_project/07-Scratch-Defect-Detection/Mine/ScratchSeg/models/ops_dcnv3/functions/dcnv3_func.py", line 53, in forward
+File "../models/ops_dcnv3/functions/dcnv3_func.py", line 53, in forward
     output = DCNv3.dcnv3_forward(*args)
 RuntimeError: Not implemented on the CPU
 
