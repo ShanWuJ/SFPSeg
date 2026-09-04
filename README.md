@@ -1,3 +1,15 @@
+@inproceedings{wu2026scratch,
+  author = {Shan Wu and Jun Hu and Chen Sun and Di Wang},
+  title = {Scratch Defect Segmentation via Spatial-Frequency Prompt},
+  booktitle = {Proceedings of the 34th ACM International Conference on Multimedia (MM '26)},
+  year = {2026},
+  month = {November 10-14},
+  address = {Rio de Janeiro, Brazil},
+  publisher = {ACM},
+  location = {New York, NY, USA},
+  pages = {1--10},
+  doi = {10.1145/3767308.3836143}
+}
 # SFPSeg
 环境搭建过程及遇到的问题：
 步骤：
